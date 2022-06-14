@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/offbrand-pokedex/static/css/main.0d8d548e.css",
+    "main.js": "/offbrand-pokedex/static/js/main.4505b324.js",
+    "index.html": "/offbrand-pokedex/index.html",
+    "main.0d8d548e.css.map": "/offbrand-pokedex/static/css/main.0d8d548e.css.map",
+    "main.4505b324.js.map": "/offbrand-pokedex/static/js/main.4505b324.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d8d548e.css",
+    "static/js/main.4505b324.js"
+  ]
+}
