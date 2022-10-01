@@ -6,7 +6,7 @@
 }
 .title{
   grid-column: span 2;
-  color: orangered;
+  color: red;
   font-family: 'Miltonian Tattoo', arial;
   height: 20vh;
   text-align: center;
@@ -30,7 +30,7 @@
   height: 100%;
   border-radius: 100vw;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: white;
   border: 1px solid gray;
 }
 .buttons{
@@ -38,10 +38,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0 auto;
   margin-top: 1rem;
-  max-width: 50%;
+}
+.b1{
+  margin-right: 2.25rem;
+}
+.b2{
+  margin-left: 2.25rem;
 }
 .btn{
   width: 20%;
@@ -49,12 +52,12 @@
   height: 50px;
   border-radius: 100vw;
   border: none;
-  background-color: orangered;
+  background-color: red;
   color: white;
 }
 .btn:hover{
   background-color: black;
-  border: 1px solid orangered;
+  border: 1px solid red;
   cursor: pointer;
 }
 .btn:active{
@@ -63,7 +66,7 @@
 .pokeName{
   text-align: center;
   margin: 20px;
-  color: white;
+  color: red;
   font-size: 2rem;
   text-transform: capitalize;
 }
@@ -73,7 +76,7 @@
 .pokeType{
   text-align: center;
   margin: 20px;
-  color: white;
+  color: red;
   font-size: 2rem;
   text-transform: capitalize;
 }
@@ -90,7 +93,12 @@
 .two, .one{
   text-align: center;
   color: white;
+  text-decoration: underline;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.one{
+  color: gold;
+  text-decoration: underline;
 }
 #pokeImg, #pokeImgShiny{
   width: 50%;

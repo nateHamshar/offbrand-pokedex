@@ -55,7 +55,7 @@ function App() {
     <div className="App">
       <div className="pokeApp">
       <div className="title">
-         Offbrand Pokedex
+          Pokedex
       </div>
       <div className="searchbar">
         <input type="text" id="search" placeholder='search...' onChange={e => setPokeSearch(e.target.value.toLowerCase())} />
